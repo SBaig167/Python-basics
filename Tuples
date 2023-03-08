@@ -1,0 +1,22 @@
+#!/bin/python3
+
+def nl():
+  print('\n')
+nl()
+
+
+#Tuples - Do not change. That means if we create a list with (), whatever in the parenthesis is, will be immutable.
+
+grades = ("P", "M", "D", "D*", "F")
+
+nl()
+
+print(grades)
+print(grades[1])
+
+# grades.pop()
+
+#grades.append("P2")
+
+# If we use grades.append("G"), it will give syntax error because tuples cannot be changed.
+
