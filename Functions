@@ -1,0 +1,37 @@
+#!/bin/python3
+
+def who_am_i(): # Here we defined a fucntion without a parameter.
+	name = 'Junaid' # name here is a local variable and will not be executed outside this funtion.
+	age = 50
+	print("My name is " + name + " and I am " + str(age) + " years old.")
+
+who_am_i()
+
+
+
+def add_one_hundred(num):
+	print(num + 100)
+add_one_hundred(100)
+
+
+
+def add(x,y):
+	print(x+y)
+add(7,7)
+
+
+
+def multiply(x,y):
+	return x * y # used to execute the function but will not print 49. That means if we need that result later, we can recall it using print function like shown below.
+(multiply(7,7)) # to print that, we need to use print function at the end. This is essential
+
+
+def square_root(x):
+	print(x ** .5)
+	print(square_root)
+square_root(64)
+
+
+def nl(): # nl stands for new line.
+	print('\n')
+nl()
