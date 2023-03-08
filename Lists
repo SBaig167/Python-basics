@@ -1,0 +1,54 @@
+#!/bin/python3
+
+def nl():
+  return('\n')
+
+units = ["CSIM", "Security", "AI", "IoT"]
+
+print(units)
+print(nl())
+
+print(units[1]) # This will print out "Security" which is 2nd item but the index is 1. 
+print(nl())
+
+print(units[0]) # It will return first item in the list which is on index 0.
+print(nl())
+
+print(units[1:3]) # The name on index 3 will not be returned.
+
+print(nl())
+print(units[1:])
+print(units[:])
+print(units[-1])
+
+print(nl())
+print(len(units)) # Here we applied the method length which will print the number of items in the list.
+
+print(nl())
+units.append("BI") # append will add the item to the end of the list.
+print(units)
+
+print(nl())
+units.insert(2, "E-Commerece") # Insert an item ("E-Commerece") at the specified index (index 2).
+print(units)
+
+print(nl())
+units.pop() # pop will remove the last item by default from the list. In order to remove a specific item, we will need to declare that index number.
+print(units)
+
+print(nl())
+units.pop(0) # This will remove the item on index 0
+print(units)
+
+print(nl())
+other_units = ['Information Technology', 'Networking']
+all_units = units + other_units
+print(all_units)
+
+print(nl())
+
+grades = [["Bob", 82], ["Alice", 90], ["Jeff", 73]] # Multi-dimentional list - can print out a specific person and number from here.
+bobs_grades = grades[0][1] # defining a variable bobs_grades and assigning it a value from grades on index 0 and print its seond item in that list.
+print(bobs_grades)
+grades[0][1] = 83 # Here, we are changing the grades at index 0 and 1 (Bob, 82) to 83.
+print(grades)
