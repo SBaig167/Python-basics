@@ -1,0 +1,33 @@
+#!/bin/python3
+
+quote = "I do not know how to code in python"
+
+print(quote)
+
+print(quote.lower())
+
+print(quote.upper())
+
+print(quote.title())
+
+print(len(quote))
+
+name = "Iqra" # String
+age = 25 # Integer
+Score = 3.7 # float
+print("My name is "+name+" and I am " +str(age)+ " years old.")
+print("My name is "+name+" and I am " +str(age)+ " years old.")
+print("My name is "+name+" and I am " +str(age)+ " years old.")
+print("My name is "+name+" and I am " +str(age)+ " years old.")
+print("My name is "+name+" and I am " +str(age)+ " years old.")
+print("My name is "+name+" and I am " +str(age)+ " years old.")
+
+
+age+=1
+print(age)
+
+
+
+birthday = 1
+age += birthday
+print(age)
