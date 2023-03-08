@@ -1,0 +1,35 @@
+my_name = "Josh"
+print(my_name[0])
+print(my_name[-1])
+
+sentence = "This is a sentence."
+print(sentence[:4]) #This will print the characters count to 4 (0,1,2,3)
+print(sentence[4:]) #And this will print characters after 4 counts which means it will not print 0,1,2,3 and will print the rest (include space)
+
+print(sentence.split()) #This will split the sentence and will print it in the form of a list.
+sentence_split = sentence.split() #Here we are defining a variable "sentence_split" and assigning the value "sentence.split()"
+
+sentence_join = ' '.join(sentence_split) #We assigned another variable to join the sentence we just splitted.
+print(sentence_join)
+
+quote = "He said, \"give me everything.\"" #\ is called escaping character. the first character after "\" will be printed as it is.
+print(quote)
+
+print("A" in "Apple") #True
+print("a" in "Apple") #False
+
+letter = "A"
+word = "Apple"
+print(letter.lower() in word.lower())
+
+letter = "a"
+word = "Apple"
+print(letter.upper() in word.upper())
+
+name = "Jack"
+print("My name is {}." .format(name))
+
+print("My name is " + name + ".")
+print("My name is {}.".format(name))
+print("My name is %s." % name)
+print(f"My name is {name}.")
