@@ -1,0 +1,38 @@
+#!/bin/python3
+
+#CONDITIONAL STATEMENTS - if/esle
+def nl():
+  print('\n')
+nl()
+
+
+def drink(money):
+	if money >= 2:
+		return "You can get a coffee!"
+	else:
+		return "I am sorry we cannot offer you a drink!"
+
+nl()
+
+
+print(drink(3))
+print(drink(1))
+
+def vape(age,money):
+	if (age >= 18) and (money >= 5):
+		return "You can buy a vape!"
+	elif (age >= 18) and (money < 5):
+		return "You cannot buy a Vape!"
+	elif (age < 18) and (money >= 5):
+		return "You are not allowed to buy this item."
+	else:
+		return "You don't have enough money and too young to buy the selected item."
+print(vape(18,5))
+nl()
+print(vape(25,10))
+nl()
+print(vape(18,4))
+nl()
+print(vape(17,5))
+nl()
+print(vape(17,1))
