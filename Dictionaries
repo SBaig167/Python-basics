@@ -1,0 +1,17 @@
+#DICTIONARIES - key/value pairs {}
+
+drinks = {"Pepsi": 2, "Coffee": 3, "Tea": 4} #drink is the key, price is the value.
+print(drinks)
+
+employees = {"Finance": ["Bob", "Linda", "Tina"], "IT": ["Gene", "Louise", "Teddy"], "HR": ["jIMMY JR", "MORT"]}
+print(employees)
+
+employees['legal'] = ["Mr. Frond"] #This syntax will add legal department to employees with an employee Mr. Frond.
+print(employees)
+
+employees.update({"Sales": ["Andie", "Ollie"]})
+print(employees)
+
+drinks['Coffee'] = 5
+print(drinks)
+print(drinks.get("Tea"))
