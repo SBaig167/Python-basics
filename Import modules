@@ -1,0 +1,23 @@
+# Importing Modules
+
+import sys # system functions and parameters.
+print(sys.version)
+
+from datetime import datetime
+print(datetime.now())
+
+
+import math
+pie = math.pi
+print("The value of pi is : ",pie)
+
+from math import pi
+print(pi)
+
+"""Examples of Artificial intelligence modules and commands:
+pip install Scikit-learn (Scikit-learn is widely used for artificial intelligence)
+import sklearn
+
+pip install NLP-python
+from NLP import NLP
+nlp = NLP()"""
