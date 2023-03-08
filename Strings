@@ -1,0 +1,15 @@
+
+print("Hello world!") # To print a simple string
+
+print('Hello world!') # To print a simple string
+
+print("""This string runs 
+multiple lines!""") # To get the output in multiple lines (the same way as entered in the code)
+
+print("This string is "+"awsome!") # To concatinate multiple strings
+
+print('\n') # To insert a new line
+
+print('Test that new line out.') # To test that new line
+
+
