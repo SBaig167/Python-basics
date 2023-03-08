@@ -1,0 +1,23 @@
+#!/bin/python3
+
+def nl():
+  print('\n')
+nl()
+
+
+#For loops - start to finish of an iterate.
+fruits = ["apple", "mango", "banana"]
+for x in fruits:
+	print(x)
+
+
+
+countdown = [4, 3, 2, 1, 0]
+for number in countdown:
+	print(number)
+print("Finished!!")
+
+
+# Assign each element in the list to x and print it. This will start from the beginning, itterate through the list till the end
+
+# We can use import time to animate the countdown (but we will not discuss that yet)
