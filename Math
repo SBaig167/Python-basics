@@ -1,0 +1,21 @@
+#!/bin/python3
+
+print(50 + 50)
+
+print(50 - 50)
+
+print(50 * 50)
+
+print(50 / 6)
+
+print(50 + 50 - 50 * 50 / 50) # Python detect PEMDAS rule
+
+print(50 ** 2) # ** will take 2 as exponent
+
+print(50 % 6) # Modulo (Remainder)
+
+print(50/6) # This will give result in decimal (float) and will print 8.333333333333334
+
+print(50//6) # This will discard the float and will just print integer
+
+print("3 + 3 = " + str(4 + 2))
