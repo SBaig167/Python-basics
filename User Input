@@ -1,0 +1,33 @@
+name = input("Please type your name: ")
+print("Hello "+name+"!")
+print("""I am your virtual assistant.
+How may I help you today?""")
+
+drink = input("what would you like to have a drink? ")
+print("Your "+drink+" will be here for you soon")
+
+print("Here you can add two numbers")
+x = input("Your first Number: ")
+y = input("your second number: ")
+print(x + y)
+
+print("Here you can add two numbers")
+x = float(input("Your first Number: "))
+y = float(input("your second number: "))
+print(x + y)
+
+print("A basic Calculator")
+x = float(input("Your first Number: "))
+y = float(input("your second number: "))
+o = input("What do you want to do with these numbers? ")
+
+if o == "add":
+  print(x + y)
+elif o == "subtract":
+  print(x - y)
+elif o == "multiply":
+  print(x * y)
+elif o == "divide":
+  print(x / y)
+else:
+  print("Operator no acceptable")
